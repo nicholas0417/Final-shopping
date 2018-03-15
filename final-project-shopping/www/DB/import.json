@@ -1,0 +1,75 @@
+{
+  "category" : {
+    "cat01" : "Pizza",
+    "cat02" : "Drinks"
+  },
+  "featured" : {
+    "item1" : "slide_1",
+    "item2" : "slide_2"
+  },
+  "menu" : {
+    "item1" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item1 description",
+      "image" : "seafood",
+      "name" : "海鮮",
+      "price" : 645,
+      "stock" : 100
+    },
+    "item2" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item2 description",
+      "image" : "porkbeef",
+      "name" : "超級總匯",
+      "price" : 645,
+      "stock" : 100
+    },
+    "item3" : {
+      "available" : true,
+      "category" : "cat02",
+      "description" : "item3 description",
+      "image" : "greentea",
+      "name" : "爽健美茶",
+      "price" : 30,
+      "stock" : 100
+    },
+    "item4" : {
+      "available" : true,
+      "category" : "cat02",
+      "description" : "item4 description",
+      "image" : "coke",
+      "name" : "雪碧/可樂250ml",
+      "price" : 20,
+      "stock" : 100
+    },
+    "item5" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item5 description",
+      "image" : "beef",
+      "name" : "韓式泡菜燒肉",
+      "price" : 645,
+      "stock" : 100
+    },
+    "item6" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item6 description",
+      "image" : "beefveg",
+      "name" : "海陸大亨",
+      "price" : 645,
+      "stock" : 100
+    },
+    "item8" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item8 description",
+      "image" : "vegeterian",
+      "name" : "鄉野青蔬(奶素)",
+      "price" : 585,
+      "stock" : 100
+    }
+  }
+}

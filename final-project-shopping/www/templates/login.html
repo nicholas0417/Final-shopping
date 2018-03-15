@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<ion-view style="" class=" " id="page5" title="登入">
+    <ion-content class="has-header" padding="true" style="background: url(img/bg1.jpg) center; background-size: cover;">
+
+
+
+
+		<form name="loginForm" class="list " id="login-form1">
+            <ion-list class=" " id="login-list2">
+
+                <div class="app-icon"></div>
+
+                <label class="item item-input item-floating-label">
+                    <span class="input-label" style="color: #9F9F9F;">信箱</span>
+                    <input ng-model="user.email" style="color: white;" type="email" placeholder="Email">
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label" style="color: #9F9F9F;" >密碼</span>
+                    <input ng-model="user.password" style="color: white;" type="password" placeholder="Password">
+                </label>
+
+            </ion-list>
+
+            <div style="height: 40px;" class="spacer"></div>
+            <button ng-click="loginEmail(loginForm,user)" class=" button button-assertive  button-block  icon-left ion-ios-email-outline "  id="signup-button3">EMAIL登入</button>
+            <button ng-click="loginFb('facebook')" class=" button button-positive  button-block icon-left ion-social-facebook "  id="signup-button4">FACEBOOK登入</button>
+        </form>
+
+		<a class=" button button-stable  button-block button-clear icon-left ion-ios-email-outline " id="login-button5" ui-sref="tabsController.forgotPassword">忘記密碼</a>
+
+	</ion-content>
+</ion-view>
